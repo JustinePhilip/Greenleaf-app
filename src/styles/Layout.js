@@ -1,4 +1,4 @@
-import Styled from 'styled-components';
+
 
 const { default: styled } = require("styled-components");
 

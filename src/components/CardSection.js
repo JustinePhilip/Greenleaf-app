@@ -47,11 +47,19 @@ const CardSectionStyled = Styled.section`
     
 .left-card{
     margin-top:50px;
+    padding:(1rem,0);
+}
+
+.right-card{
+    display:flex;
+    justify-content:flex-end;
 }
 
 .card{
-    float:right;
+    margin-right:-45px;
 }
+
+
 
 }
 

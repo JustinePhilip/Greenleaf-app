@@ -36,6 +36,7 @@ const GlobalStyle = createGlobalStyle`
 
         p{
             color:var(--lavender-secondary);
+            line-height:1.9rem;
         }
 
         .secondary-heading{

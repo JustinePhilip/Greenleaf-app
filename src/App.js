@@ -5,6 +5,7 @@ import Header from './components/Header'
 import {OuterLayout} from './styles/Layout';
 import CardSection from './components/CardSection';
 import Styled from 'styled-components';
+import ChartSection from './components/ChartSection';
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
             <OuterLayout>
                 <MainStyled>
                     <CardSection/>
+                    <ChartSection/>
                 </MainStyled>
                 
             </OuterLayout>
