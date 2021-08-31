@@ -1,0 +1,15 @@
+:root{
+    --purple-primary: #554dde;
+    --accent-pink: #f44e77;
+    --neutral-light: #f2f6ff;
+    --lavender-secondary: #6a6d9e; 
+    --dark-primary: #16194f;
+    --border-color: #cab6f1;
+}
+
+/* 
+<div className="left-content">
+<h1>Smart Banking for Freelancing</h1>
+<p className="white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p> </div> */
