@@ -1,11 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import Header from './components/Header'
 // import {OuterLayout} from './styles/Layout';
 import {OuterLayout} from './styles/Layout';
-import CardSection from './components/CardSection';
 import Styled from 'styled-components';
+import CardSection from './components/CardSection';
 import ChartSection from './components/ChartSection';
+
 
 
 function App(){
@@ -14,8 +14,8 @@ function App(){
             <Header/>
             <OuterLayout>
                 <MainStyled>
-                    <CardSection/>
-                    <ChartSection/>
+                  <CardSection/>
+                  <ChartSection/>
                 </MainStyled>
                 
             </OuterLayout>

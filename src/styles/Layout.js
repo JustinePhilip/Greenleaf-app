@@ -13,5 +13,5 @@ export const OuterLayout = styled.section`
 
 
 export const InnerLayout = styled.section`
-      padding:15rem 0;
+      padding:7.5rem 0;
 `;

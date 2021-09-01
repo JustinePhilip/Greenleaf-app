@@ -1,71 +1,58 @@
 import React from 'react';
-import Styled from 'styled-components';
+import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layout';
-import card from '../img/creditcard.svg';
+import creditcard from '../img/creditcard.svg';
 
 function CardSection(){
 
     return(
-     
         <CardSectionStyled>
-          <InnerLayout>
-              <div className="card-container">
-                    <div className="left-card">
+            <InnerLayout>
+                <div className="card-container">
 
+                    <div className="left-card">
                         <h2 className="secondary-heading">One card for all payments</h2>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et 
-                        dolore magna aliquaAnd that’s why a 15th century typesetter might 
-                        have scrambled a passage of Cicero;  he wanted people to focus on his fonts, 
-                        to imagine their own content on the pages. 
-                        He wanted people to see, and to get them to see he had to keep them from reading.
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+                        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure 
+                        reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                         </p>
-
                     </div>
-
                     <div className="right-card">
-
-                        <img src={card} alt="" className="card"/>
+                        <img src={creditcard} alt="" className="card"/>
+                    </div>
 
                     </div>
-              </div>
-               
-          </InnerLayout>
 
+            </InnerLayout>
         </CardSectionStyled>
     )
-   
 }
 
-const CardSectionStyled = Styled.section`
+const CardSectionStyled = styled.section`
 
 .card-container{
-    display:grid;
-    grid-template-columns:repeat(2, 2fr);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
-    
-.left-card{
-    margin-top:50px;
-    padding:(1rem,0);
+    .right-card{
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .left-card{
+     margin-top: 45px;
+
+     p{
+         margin-top: 20px;
+     }
+    }
 }
-
-.right-card{
-    display:flex;
-    justify-content:flex-end;
-}
-
-.card{
-    margin-right:-45px;
-}
-
-
-
-}
-
-
-
 
 `;
 
 export default CardSection;
+
+

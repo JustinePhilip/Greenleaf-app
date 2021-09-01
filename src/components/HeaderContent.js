@@ -49,9 +49,7 @@ const HeaderContentStyled = styled.div`
         margin-top:-10rem;
 
      
-    .white{
-        color:white;
-    }
+    
     h1{
         font-weight:700;
         font-size:3rem;
@@ -61,6 +59,7 @@ const HeaderContentStyled = styled.div`
         padding:2rem 0;
         line-height:1.8rem;
         margin-top:-20.5px;
+        color: white;
     }
     }
 
@@ -71,7 +70,7 @@ const HeaderContentStyled = styled.div`
         justify-content:center;
 
         .phone{
-            widith:80%;
+            width:80%;
             }
         
 

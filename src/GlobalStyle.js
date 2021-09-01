@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
             --neutral-light: #f2f6ff;
             --lavender-secondary: #6a6d9e; 
             --dark-primary: #16194f;
-            --border-color: #cab6f1;
+            --border-color: #cad6f1;
         }
 
         *{

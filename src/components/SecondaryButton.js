@@ -3,6 +3,7 @@ import Styled from 'styled-components';
 import arrow from '../img/arrow.svg';
 
 
+
 function SecondaryButton({name}){
     return(
         <SecondaryButtonStyled>
@@ -17,7 +18,7 @@ const SecondaryButtonStyled = Styled.button`
     color: white;
     font-family:inherit;
     font-size;inherit;
-    padding: .6rem 1.8rem;
+    padding: .9rem 1.8rem;
     border-radius: 15px;
     outline:none;
     border:none;
