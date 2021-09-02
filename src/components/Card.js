@@ -7,67 +7,60 @@ function Card({account,amount,text,button,card,active,inactive,check,checkDisabl
 {
     return (
         < CardStyled>
-        <h4 className="card-title">
-            {account}
-        </h4>
+               <h4 className="card-title">
+                    {account}
+               </h4>
 
-        <h4 className="card-title">
-            {amount} <span>\m</span>
-        </h4>
+               <h4 className="card-title">
+                    {amount} <span>\m</span>
+               </h4>
 
-        <p>
-            {text}
-        </p>
+               <p>{text}</p>
 
-       <button>
-           {button}
-       </button>
+               <button>{button}</button>
 
-       <img src={card} alt=""/>
+               <img src={card} alt=""/>
 
-       <img src={active} alt=""/>
+               <div className="plan-container">
+                    <img src={active} alt=""/>
+                    <img src={inactive} alt=""/>
+               </div>
+               
 
-       <img src={inactive} alt=""/>
-
-       <img src={check} alt=""/>
-
-       <img src={checkDisabled} alt=""/>
-
-       <p>
-            {text1}
-       </p>
-
-       <p>
-            {text2}
-       </p>
-
-       <p>
-            {text3}
-       </p>
-
-       <p>
-            {text4}
-       </p>
-
-       <p>
-            {text5}
-       </p>
-
-       <p>
-            {text6}
-       </p>
-
-       <p>
-            {text7}
-       </p>
-
-       <p>
-            {text8}
-       </p>
-
-
-
-
+               <div className="list-container">
+                         <p className="text-check">
+                              <img src={check} alt=""/>
+                                   {text1}
+                         </p>
+                         <p className="text-check">
+                              <img src={check} alt=""/>
+                                   {text2}
+                         </p>
+                         <p className="text-check">
+                              <img src={check} alt=""/>
+                                   {text3}
+                         </p>
+                         <p className="text-check">
+                              <img src={check} alt=""/>
+                                   {text4}
+                         </p>
+                         <p className="text-check">
+                              <img src={check} alt=""/>
+                                   {text5}
+                         </p>
+                         <p className="text-check">
+                              <img src={checkDisabled} alt=""/>
+                                   {text6}
+                         </p>
+                         <p className="text-check">
+                              <img src={checkDisabled} alt=""/>
+                                   {text7}
+                         </p>
+                         <p className="text-check">
+                              <img src={checkDisabled} alt=""/>
+                                   {text8}
+                         </p>
+               </div>
         </ CardStyled>
     )
 }
