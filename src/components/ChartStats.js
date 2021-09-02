@@ -22,12 +22,13 @@ const ChartStatsStyled = styled.div`
 
 background-color: white;
 border-radius: 20px;
-border: 1px solid var(--border-color);
+/* border: 1px solid var(--border-color); */
 width: 12rem;
 height: 10rem;
 /* padding: 0.3rem 2rem;  */
 padding: 0 1rem 0  1rem ;
 margin-right: 2rem;
+box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
 h4{
     font-size: 3rem;
     color: var(--purple-primary);

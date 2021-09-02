@@ -13,17 +13,19 @@ function Navigation(){
             </div>
             <ul>
               
+            
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#" >Home</a>
                 </li>
 
                 <li>
-                    <a href="#">Features</a>
+                    <a href="#" >Features</a>
                 </li>
 
                 <li>
-                    <a href="#">Pricing</a>
+                    <a href="#" >Pricing</a>
                 </li>
+             
                
 
                 <PrimaryButton name={'Register'}/>
@@ -49,13 +51,14 @@ const NavigationStyled = styled.nav`
           display: flex;
           justify-content: space-between;
           width:50%;
+        
           
       }
 
       .logo{
-          margin-top:20px;
+          padding-top:20px;
       }
-     
+
 `
 
 export default Navigation;

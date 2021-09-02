@@ -42,8 +42,18 @@ const GlobalStyle = createGlobalStyle`
         .secondary-heading{
             font-size:2rem;
             color:var(--purple-primary);
-
         }
+
+        span{
+            color: var( --accent-pink);
+        }
+
+        .small-heading{
+            color:var(--purple-primary);
+            font-size:1.5rem;
+            text-align: center;
+        }
+
 `
 ;
 

@@ -5,6 +5,8 @@ import {OuterLayout} from './styles/Layout';
 import Styled from 'styled-components';
 import CardSection from './components/CardSection';
 import ChartSection from './components/ChartSection';
+import MessagingSection from './components/MessagingSection'
+import PaymentSection from './components/PaymentSection';
 
 
 
@@ -16,6 +18,8 @@ function App(){
                 <MainStyled>
                   <CardSection/>
                   <ChartSection/>
+                  <MessagingSection/>
+                  <PaymentSection/>
                 </MainStyled>
                 
             </OuterLayout>

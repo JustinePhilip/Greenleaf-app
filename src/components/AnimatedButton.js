@@ -36,13 +36,24 @@ const AnimatedButtonStyled = styled.button`
 
     /* this is to hover the animatedbutton */
    &:hover{
+            color: var(--accent-pink);
+
+        
         .blob1{
             transform: translateX(-80px);
             transition: all .5s ease-in-out;
+           
         }
 
         .blob2{
             transform: translateX(80px);
+            transition: all .5s ease-in-out;
+      
+        }
+
+        .arrow{
+            color: orange;
+            padding-left: 2rem;
             transition: all .5s ease-in-out;
         }
     }
