@@ -7,7 +7,67 @@ function Card({account,amount,text,button,card,active,inactive,check,checkDisabl
 {
     return (
         < CardStyled>
-            
+        <h4 className="card-title">
+            {account}
+        </h4>
+
+        <h4 className="card-title">
+            {amount} <span>\m</span>
+        </h4>
+
+        <p>
+            {text}
+        </p>
+
+       <button>
+           {button}
+       </button>
+
+       <img src={card} alt=""/>
+
+       <img src={active} alt=""/>
+
+       <img src={inactive} alt=""/>
+
+       <img src={check} alt=""/>
+
+       <img src={checkDisabled} alt=""/>
+
+       <p>
+            {text1}
+       </p>
+
+       <p>
+            {text2}
+       </p>
+
+       <p>
+            {text3}
+       </p>
+
+       <p>
+            {text4}
+       </p>
+
+       <p>
+            {text5}
+       </p>
+
+       <p>
+            {text6}
+       </p>
+
+       <p>
+            {text7}
+       </p>
+
+       <p>
+            {text8}
+       </p>
+
+
+
+
         </ CardStyled>
     )
 }
