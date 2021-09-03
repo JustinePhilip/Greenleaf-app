@@ -17,9 +17,9 @@ function Card({account,amount,text,button,card,active,inactive,check,checkDisabl
 
                <p>{text}</p>
 
-               <button>{button}</button>
+               <div className="button-container"> <button>{button}</button></div>
 
-               <img src={card} alt=""/>
+              <div className="img-con"> <img src={card} alt=""/></div>
 
                <div className="plan-container">
                     <img src={active} alt=""/>
@@ -66,6 +66,84 @@ function Card({account,amount,text,button,card,active,inactive,check,checkDisabl
 }
 
 const CardStyled = styled.div`
+
+background-color: white;
+padding: 2.5rem ;
+border-radius: 50px;
+box-shadow: 0px 25px 50px rgba(22,25,79,0.05);
+
+h4{
+     font-size: 2.0rem;
+     color: #16194f;
+     text-align: center;
+     padding: 1rem 0;
+
+     span{
+          font-size: 1.0rem;
+     }
+}
+
+.button-container{
+    text-align:center;
+    padding: 1.5rem 0;
+
+    button{
+         border: 1px solid #16194f;
+         padding: 1rem 1.2rem;
+         border-radius: 20px;
+         cursor: pointer;
+         background: transparent;
+         font-size: inherit;
+         color: #16194f;
+
+         :hover{
+              background-color:#16194f;
+              color: white;
+              transition: all .5s ease-in-out;
+         }
+    }
+}
+
+.img-con{
+     display: flex;
+     justify-content: center;
+     img{
+          width: 70%;
+     }
+}
+
+.plan-container{
+     text-align: center;
+     padding: 1.5rem 0;
+
+     img{
+          padding: 0 .2rem;
+     }
+}
+
+.text-check{
+     text-align: left;
+     display: flex;
+     padding: .5rem 0;
+
+     img{
+          padding-right: .4rem;
+          width: 4%;
+     }
+
+     :nth-child(6){
+          color: #b7b7b7;
+     }
+
+     :nth-child(7){
+          color: #b7b7b7;
+     }
+
+     :nth-child(8){
+          color: #b7b7b7;
+     }
+
+}
 `;
 
 export default Card;

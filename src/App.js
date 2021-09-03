@@ -7,7 +7,7 @@ import CardSection from './components/CardSection';
 import ChartSection from './components/ChartSection';
 import MessagingSection from './components/MessagingSection'
 import PaymentSection from './components/PaymentSection';
-
+import FAQStyled from './components/FAQ';
 
 
 function App(){
@@ -20,6 +20,7 @@ function App(){
                   <ChartSection/>
                   <MessagingSection/>
                   <PaymentSection/>
+                  <FAQStyled/>
                 </MainStyled>
                 
             </OuterLayout>

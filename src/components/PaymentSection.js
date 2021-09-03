@@ -23,26 +23,49 @@ function PaymentSection() {
 
                     <div className="card-container">
                         <Card
-                        account={'free'}
-                        amount={'$0'}
-                        text={'Lorem Ipsum text in your editor or CMS of choice'}
-                        button={'Get Started'}
-                        card={card}
-                        active={active}
-                        inactive={inactive}
-                        check={check}
-                        checkDisabled={checkDisabled}
-                        text1={'is Provides an elegant and quick way'}
-                        text2={'anywhere in my PC it spits out a couple of paragraphs'}
-                        text3={'fill your text layers with dummy text'}
-                        text4={'If you have a sense of humor and want to'}
-                        text5={'This is a shortcut I use a lot in my workflow to boost'}
-                        text6={'If you want to clone a line'}
-                        text7={'I could not find a duplicate line command per say'}
-                        text8={'Insert cursor at end of each line selected'}
+                            account={'free'}
+                            amount={'$0'}
+                            text={'Lorem Ipsum text in your editor or CMS of choice'}
+                            button={'Get Started'}
+                            card={card}
+                            active={active}
+                            inactive={inactive}
+                            check={check}
+                            checkDisabled={checkDisabled}
+                            text1={'is Provides an elegant and quick way'}
+                            text2={'anywhere in my PC it spits out a couple of paragraphs'}
+                            text3={'fill your text layers with dummy text'}
+                            text4={'If you have a sense of humor and want to'}
+                            text5={'This is a shortcut I use a lot in my workflow to boost'}
+                            text6={'If you want to clone a line'}
+                            text7={'I could not find a duplicate line command per say'}
+                            text8={'Insert cursor at end of each line selected'}
+
+                        />
+
+                        <Card 
+                            account={'Premium'}
+                            amount={'$0'}
+                            text={'Lorem Ipsum text in your editor or CMS of choice'}
+                            button={'Get Started'}
+                            card={card}
+                            active={active}
+                            inactive={inactive}
+                            check={check}
+                            checkDisabled={checkDisabled}
+                            text1={'is Provides an elegant and quick way'}
+                            text2={'anywhere in my PC it spits out a couple of paragraphs'}
+                            text3={'fill your text layers with dummy text'}
+                            text4={'If you have a sense of humor and want to'}
+                            text5={'This is a shortcut I use a lot in my workflow to boost'}
+                            text6={'If you want to clone a line'}
+                            text7={'I could not find a duplicate line command per say'}
+                            text8={'Insert cursor at end of each line selected'}
 
                         />
                     </div>
+
+                   
                 
 
             </InnerLayout>
@@ -52,6 +75,16 @@ function PaymentSection() {
 }
 
 const PaymentSectionStyled = styled.section`
+.card-container{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-top: 4rem;
+ 
+
+   
+}
+
 
 p{
     text-align: center;
